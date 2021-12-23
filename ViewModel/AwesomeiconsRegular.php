@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Hyva\Awesome\ViewModel;
+namespace Jajuma\AwesomeHyva\ViewModel;
 
 use Magento\Framework\App\CacheInterface;
 use Magento\Framework\View\Asset;

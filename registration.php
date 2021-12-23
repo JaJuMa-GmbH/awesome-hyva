@@ -8,4 +8,4 @@
 
 use Magento\Framework\Component\ComponentRegistrar;
 
-ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Hyva_Awesome', __DIR__);
+ComponentRegistrar::register(ComponentRegistrar::MODULE, 'Jajuma_AwesomeHyva', __DIR__);

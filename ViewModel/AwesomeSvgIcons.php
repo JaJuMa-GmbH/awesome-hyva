@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace Hyva\Awesome\ViewModel;
+namespace Jajuma\AwesomeHyva\ViewModel;
 
 use Magento\Framework\App\CacheInterface;
 use Magento\Framework\View\Asset;
@@ -30,7 +30,7 @@ class AwesomeSvgIcons implements ArgumentInterface
     private const CACHE_TAG = 'HYVA_ICONS';
 
     /**
-     * @var string Path relative to asset directory Hyva_Awesome::svg/
+     * @var string Path relative to asset directory Jajuma_AwesomeHyva::svg/
      */
     private $iconSet;
 
@@ -144,7 +144,7 @@ class AwesomeSvgIcons implements ArgumentInterface
      */
     private function getFilePath(string $icon): string
     {
-        $assetFileId = 'Hyva_Awesome::svg/' . ($this->iconSet === '' ? '' : $this->iconSet . '/') . $icon . '.svg';
+        $assetFileId = 'Jajuma_AwesomeHyva::svg/' . ($this->iconSet === '' ? '' : $this->iconSet . '/') . $icon . '.svg';
         return $this->assetRepository->createAsset($assetFileId)->getSourceFile();
     }
 }
