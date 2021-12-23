@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @author    JaJuMa GmbH <info@jajuma.de>
+ * @copyright Copyright (c) 2020 JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="jajuma" sortOrder="999" class="jajuma-tab" translate="label">
+            <label>JaJuMa</label>
+        </tab>
+        <section id="awesomehyva" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
+            <label>Font Awesome SVG Icons for Hyvä Themes</label>
+            <tab>jajuma</tab>
+            <resource>Jajuma_AwesomeHyva::config_jajuma_awesomehyva</resource>
+            <group id="extension_info" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Extension Information</label>
+                <attribute type="expanded">1</attribute>
+                <field id="extension_info_text" translate="label comment" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
+                    <frontend_model>Jajuma\AwesomeHyva\Block\System\Config\Form\Jajuma\Module</frontend_model>
+                    <comment>
+                        <![CDATA[
+		                <div style="margin:auto;padding:10px;background-color:#f1f1f1;display:inline-block;width:97%;">
+                        <div class="box-img" style="width: 20%;float: left;">
+                            <a href="https://www.jajuma.de/en" title="Font Awesome SVG Icons for Hyvä Themes Extension" target="_blank">
+			            <div class="jajuma-extlogo"></div>
+                            </a>
+                            <strong style="font-size: 10px;">Copyright ©
+                                <script>var today = new Date();
+                                document.write(today.getFullYear());</script>
+                                <a href="https://www.jajuma.de/en" target="_blank">www.jajuma.de</a>
+                            </strong>
+                        </div>
+                        <div style="width: 77%;float: left;padding-left: 3%;">
+                            <div class="name" style="font-size: 16px;">
+                                <b>Font Awesome SVG Icons for Hyvä Themes</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
+				        <div class="jajuma-minilogo"></div>
+                            </div>
+                            <hr>
+                            <br>
+                        <div class="more"><b>More Information About This Extension:</b>
+                            <br>
+                            <div><a href="https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-svg-icons-for-hyva-themes"
+				                target="_blank">Website</a> |
+				                <a href="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/JaJuMa_Awesome_Hyva_v001.pdf"
+				                target="_blank">Manual</a> |
+				                <a href="https://hyva.extension.jajuma.de/"
+				                target="_blank">Demo</a>
+				                <div style="float: right;">Installed Version: <b>1.0.0</b></div>
+				             </div>
+                        </div>
+                            <hr>
+                            <br>
+                            <div class="info"><b>Discover More Ideas To Improve Your Store:</b>
+                                <br>
+                                <div class="more-ideas-list">
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2"
+                                       target="_blank">Shariff Social Share Buttons</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2"
+                                       target="_blank">WebP Optimized Images</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/prg-pattern-link-masking-for-magento-2"
+                                       target="_blank">PRG Pattern Link Masking</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/video-widget-gdpr-extension-for-magento-2"
+                                       target="_blank">Video Widget</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2"
+                                       target="_blank">Customer Navigation Manager</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/page-preload-extension-for-magento-2"
+                                       target="_blank">Page Preload</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/honey-spam-anti-spam-extension-for-magento-2"
+                                       target="_blank">Honey Spam Anti-Spam</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/matomo-analytics-extension-for-magento-2"
+                                       target="_blank">Matomo Analytics</a>
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/customer-registration-reminder-and-cleanup-extension-for-magento-2"
+                                       target="_blank">Customer Registration Reminder & Cleanup</a>
+                                </div>
+                        </div>
+                            <hr>
+                        </div>
+                        </div>
+                    ]]>
+                    </comment>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>
