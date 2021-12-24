@@ -10,7 +10,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Jajuma_AwesomeHyva">
         <sequence>
-            <module name="Jajuma_AwesomeHyva"/>
+            <module name="Hyva_Theme"/>
         </sequence>
     </module>
 </config>
