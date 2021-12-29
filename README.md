@@ -13,9 +13,9 @@ The module includes:
 
 Install via composer as any other Magento extension from github.
 
-## Using Font Awesome icons in Hyvä Themes using JaJuMa "Awesome Hyvä" module
+## Using Font Awesome icons in Hyvä Themes with JaJuMa "Awesome Hyvä" module
 
-### How to use Font Aweseome icons in Hyvä Themes in view models
+### How to use Font Awesome icons in Hyvä Themes in view models
 
 JaJuMa "Awesome Hyvä" module provides 3 view models:
 
@@ -52,7 +52,7 @@ or you may also pass additional attributes like this:
 <?= $awesomeiconsRegular->addressBookHtml('w-10 h-10 fill-current', 24, 24, ['style'=>'color:#e24848']) ?>
 ```
 
-### How to use Font Aweseome icons in Hyvä Themes in CMS content
+### How to use Font Awesome icons in Hyvä Themes in CMS content
 
 Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.
 So you may add icons in text / code blocks like this:

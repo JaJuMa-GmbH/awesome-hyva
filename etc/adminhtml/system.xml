@@ -12,7 +12,7 @@
             <label>JaJuMa</label>
         </tab>
         <section id="awesomehyva" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="10" translate="label">
-            <label>Font Awesome SVG Icons for Hyvä Themes</label>
+            <label>Awesome Hyvä</label>
             <tab>jajuma</tab>
             <resource>Jajuma_AwesomeHyva::config_jajuma_awesomehyva</resource>
             <group id="extension_info" translate="label" type="text" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
@@ -24,7 +24,7 @@
                         <![CDATA[
 		                <div style="margin:auto;padding:10px;background-color:#f1f1f1;display:inline-block;width:97%;">
                         <div class="box-img" style="width: 20%;float: left;">
-                            <a href="https://www.jajuma.de/en" title="Font Awesome SVG Icons for Hyvä Themes Extension" target="_blank">
+                            <a href="https://www.jajuma.de/en" title="Font Awesome 5 SVG Icons for Hyvä Themes Extension" target="_blank">
 			            <div class="jajuma-extlogo"></div>
                             </a>
                             <strong style="font-size: 10px;">Copyright ©
@@ -35,7 +35,7 @@
                         </div>
                         <div style="width: 77%;float: left;padding-left: 3%;">
                             <div class="name" style="font-size: 16px;">
-                                <b>Font Awesome SVG Icons for Hyvä Themes</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
+                                <b>Font Awesome 5 SVG Icons for Hyvä Themes</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
 				        <div class="jajuma-minilogo"></div>
                             </div>
                             <hr>
@@ -54,6 +54,8 @@
                             <div class="info"><b>Discover More Ideas To Improve Your Store:</b>
                                 <br>
                                 <div class="more-ideas-list">
+                                    <a href="https://www.jajuma.de/en/jajuma-develop/extensions/ultimate-image-optimizer-extension-for-magento-2"
+                                       target="_blank">Ultimate Image Optimizer</a>
                                     <a href="https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2"
                                        target="_blank">Shariff Social Share Buttons</a>
                                     <a href="https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2"
@@ -79,6 +81,62 @@
                         </div>
                     ]]>
                     </comment>
+                </field>
+            </group>
+            <group id="manual" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Manual</label>
+                <attribute type="expanded">1</attribute>
+                <field id="manual_view_models" translate="label comment" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
+                    <frontend_model>Jajuma\AwesomeHyva\Block\System\Config\Form\Jajuma\Module</frontend_model>
+                    <comment><![CDATA[
+                    <div style="margin: auto; padding: 10px;">
+                            <div class="messages" style="padding: 15px 15px 15px 55px;background: #f2f2f2;color: #676056;">
+                                <h2><b>How to use Font Awesome icons in view models:</b></h2>
+                                   <ol type="1" style="padding-left: 15px;">
+                                      <li><p><b>Require one of the view models in your template:</b><br></p>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid $awesomeiconsSolid */
+$awesomeiconsSolid = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid::class);</pre>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsRegular $awesomeiconsRegular */
+$awesomeiconsRegular = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsRegular::class);</pre>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands $awesomeiconsBrands */
+$awesomeiconsBrands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands::class);</pre>
+                                      </li>
+                                      <li><p><b>Then render the icons like this:</b><br></p>
+                                        <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('w-8 h-8 fill-current text-red-100', 24, 24) ?&gt;</pre>
+                                        <p>The method name is the camel-cased icon name, followed by Html.<br>
+                                        In an IDE you should have autocompletion for all available methods.
+                                        The parameters are optional and change the class, width, and height attributes of the SVG element.<br>
+                                        It is recommended to set all of them so that the images are not rendered in huge sizes if CSS fails to load.</p>
+                                        <p>or you may also pass additional attributes like this:</p>
+                                        <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('w-10 h-10 fill-current', 24, 24, ['style'=&gt;'color:#e24848']) ?&gt;</pre>
+                                      </li>
+                                   </ol>
+                                <h2><b>How to use Font Awesome icons in CMS content:</b></h2>
+                                    <p>Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.<br>
+                                    So you may add icons in text / code blocks like this:</p>
+                                    <pre class="code">{{awesome "solid/address-book" classes="w-6 h-6 fill-current text-red-100" width=12 height=12}}</pre>
+                            </div>
+                    </div>
+                    <style>
+                        pre.code {
+                            background: #3c3c3c;
+                            border: 1px solid #ddd;
+                            border-left: 5px solid #efb602;
+                            color: #fef4f4;
+                            page-break-inside: avoid;
+                            font-family: monospace;
+                            font-size: 15px;
+                            line-height: 1.6;
+                            margin-bottom: 1.6em;
+                            max-width: 100%;
+                            overflow: auto;
+                            padding: 1em 1.5em;
+                            display: block;
+                            word-wrap: break-word;
+                            border-radius: 10px;
+                        }
+                    </style>
+                    ]]></comment>
                 </field>
             </group>
         </section>

@@ -1,6 +1,6 @@
 {
   "name": "jajuma/awesomehyva",
-  "description": "This Magento 2 extension allows using Font Awesome 5 icons with Hyva Themes",
+  "description": "This Magento 2 extension allows using Font Awesome 5 icons with Hyvä Themes",
   "type": "magento2-module",
   "license": "MIT",
   "version": "1.0.0",
@@ -14,7 +14,7 @@
   "require": {},
   "autoload": {
     "psr-4": {
-      "Jajuma\\CustomerNavigation\\": ""
+      "Jajuma\\AwesomeHyva\\": ""
     },
     "files": [
       "registration.php"
