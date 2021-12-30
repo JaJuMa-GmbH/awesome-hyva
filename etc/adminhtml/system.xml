@@ -84,7 +84,7 @@
                 </field>
             </group>
             <group id="demo" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
-                <label>Demo & Icon List</label>
+                <label>Demo + Icon List</label>
                 <attribute type="expanded">1</attribute>
                 <field id="demo_icon_list" translate="label comment" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
                     <frontend_model>Jajuma\AwesomeHyva\Block\System\Config\Form\Jajuma\Module</frontend_model>
