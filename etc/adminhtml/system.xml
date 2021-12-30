@@ -83,6 +83,27 @@
                     </comment>
                 </field>
             </group>
+            <group id="demo" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Demo & Icon List</label>
+                <attribute type="expanded">1</attribute>
+                <field id="demo_icon_list" translate="label comment" sortOrder="1" showInDefault="1" showInWebsite="1" showInStore="1" type="text">
+                    <frontend_model>Jajuma\AwesomeHyva\Block\System\Config\Form\Jajuma\Module</frontend_model>
+                    <comment><![CDATA[
+                    <div style="margin: auto; padding: 10px;">
+                        <div class="messages" style="padding: 15px 15px 15px 55px;background: #f2f2f2;color: #676056;">
+                                <h2><b>Please see all 1600+ available icons on our demo.</b></h2>
+                                    <p>The demo site provides a searchable list with all 1600+ included icons.<br>
+                                       The demo also provides options to see the icons in your colors and
+                                       to get the code for using the icons in your projects easily by copy &amp; paste.
+                                       <br><br>
+                                       <a href="https://hyva.extension.jajuma.de/awesomehyva/icon/list"
+                                       title="Awesome Hyvä Demo &amp; Icon List" target="_blank">
+                                       Go to Awesome Hyvä Demo &amp; Icon List</a></p>
+                            </div>
+                    </div>
+                    ]]></comment>
+                </field>
+            </group>
             <group id="manual" translate="label" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>Manual</label>
                 <attribute type="expanded">1</attribute>

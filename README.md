@@ -9,6 +9,14 @@ The module includes:
 * Regular Style Icons &
 * Brands Icons
 
+## Further Info, Demo, Extension Description & Manual
+
+* [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
+* [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/font-awesome-icons-fuer-hyva-themes-extension)
+* [Demo & List of all included icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list)
+
+<img align="right" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/awesome-hyva-icon-list-demo-small.jpg">
+
 ## Installation
 
 Install via composer as any other Magento extension from github.
@@ -60,14 +68,13 @@ So you may add icons in text / code blocks like this:
 {{awesome "solid/address-book" classes="w-6 h-6 fill-current text-red-100" width=12 height=12}}
 ```
 
-## Further Info, Extension Description & Manual
-
-* [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
-* [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/font-awesome-icons-fuer-hyva-themes-extension)
+Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.
 
 ## Demo
 
-## [Font Awesome 5 SVG icons for Hyvä Themes Demo](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-magento-2-and-hyva-themes)
+### [Font Awesome 5 SVG icons for Hyvä Themes Demo](https://hyva.extension.jajuma.de/)
+
+With [list of all included icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) and detail view for copy & paste the code to use the icons in your project.
 
 ## License
 
