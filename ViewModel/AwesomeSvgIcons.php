@@ -101,6 +101,7 @@ class AwesomeSvgIcons implements ArgumentInterface
         if ($height) {
             $svgXml['height'] = (string) $height;
         }
+        $svgXml['fill'] = 'currentColor';
 
         if (!empty($attributes)) {
             foreach ($attributes as $key => $value) {
@@ -111,6 +112,7 @@ class AwesomeSvgIcons implements ArgumentInterface
         }
 
         $result = \str_replace("<?xml version=\"1.0\"?>\n", '', $svgXml->asXML());
+        $result = \str_replace("\n", '', $svgXml->asXML());
         $this->cache->save($result, $cacheKey, [self::CACHE_TAG]);
         return $result;
     }
