@@ -19,7 +19,10 @@ The module includes:
 
 ## Installation
 
-Install via composer as any other Magento extension from github.
+Install via composer as any other Magento extension from github:
+```
+composer require jajuma/awesomehyva
+```
 
 ## Using Font Awesome icons in Hyvä Themes with JaJuMa "Awesome Hyvä" module
 
