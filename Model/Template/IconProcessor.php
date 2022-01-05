@@ -43,10 +43,7 @@ class IconProcessor implements ProcessorInterface
      * Processes {{awesome}} directives and turns them into inline SVG elements
      *
      * Valid formats:
-     * {{awesome "awesomeicons/solid/address-book" classes="w-6 h-6" width=12 height=12}}
-     *
-     * Custom icons stored in `web/svg/` like `web/svg/cart.svg`:
-     * {{awesome "cart"}}
+     * {{awesome "solid/address-book" classes="w-6 h-6" width=12 height=12}}
      *
      * @param mixed $path Template var, scalar or null if nothing has been passed to the directive.
      * @param string[] $parameters Additional parameters.
