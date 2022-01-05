@@ -174,7 +174,7 @@ use Magento\Framework\View\DesignInterface;
 
 class AwesomeiconsRegular extends AwesomeSvgIcons
 {
-    private const AWESOME_REGULAR   = 'awesomeicons/regular';
+    private const AWESOME_REGULAR   = 'regular';
 
     public function __construct(
         Asset\Repository $assetRepository,

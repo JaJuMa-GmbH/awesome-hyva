@@ -1,9 +1,8 @@
 <?php
 /**
- * Hyvä Themes - https://hyva.io
- * Copyright © Hyvä Themes 2020-present. All rights reserved.
- * This product is licensed per Magento install
- * See https://hyva.io/license
+ * @author    JaJuMa GmbH <info@jajuma.de>
+ * @copyright Copyright (c) 2022-present JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
  */
 
 declare(strict_types=1);
@@ -15,7 +14,7 @@ use Magento\Framework\Filter\SimpleDirective\ProcessorInterface;
 use Magento\Framework\View\Asset\File\NotFoundException;
 
 /**
- * A custom directive to parse {{icon}} variables to inline SVGs
+ * A custom directive to parse {{awesome}} variables to inline SVGs
  */
 class IconProcessor implements ProcessorInterface
 {

@@ -1024,7 +1024,7 @@ use Magento\Framework\View\DesignInterface;
 
 class AwesomeiconsSolid extends AwesomeSvgIcons
 {
-    private const AWESOME_SOLID   = 'awesomeicons/solid';
+    private const AWESOME_SOLID   = 'solid';
 
     public function __construct(
         Asset\Repository $assetRepository,
