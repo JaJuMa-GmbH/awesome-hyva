@@ -123,19 +123,30 @@ $awesomeiconsRegular = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awe
 $awesomeiconsBrands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands::class);</pre>
                                       </li>
                                       <li><p><b>Then render the icons like this:</b><br></p>
-                                        <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('w-8 h-8 fill-current text-red-100', 24, 24) ?&gt;</pre>
-                                        <p>The method name is the camel-cased icon name, followed by Html.<br>
-                                        In an IDE you should have autocompletion for all available methods.
-                                        The parameters are optional and change the class, width, and height attributes of the SVG element.<br>
-                                        It is recommended to set all of them so that the images are not rendered in huge sizes if CSS fails to load.</p>
-                                        <p>or you may also pass additional attributes like this:</p>
-                                        <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('w-10 h-10 fill-current', 24, 24, ['style'=&gt;'color:#e24848']) ?&gt;</pre>
+                                        <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('w-8 h-8 text-red-100', 24, 24) ?&gt;</pre>
+                                        <p>
+                                            <ul>
+                                                <li>The method name is the camel cased icon name, followed by Html.</li>
+                                                <li>In an IDE you should have autocompletion for all available methods.</li>
+                                                <li>The parameters are optional, and change the class (in single quotes) followed by 2 values for width and height attributes of the SVG element.</li>
+                                                <li>It is recommended to set all of them, so that the images are not rendered in huge sizes if CSS fails to load.</li>
+                                            </ul>
+                                        </p>
+                                        <p>or you may also pass additional attributes like this as an array:</p>
+                                        <pre class="code">&lt;?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?&gt;</pre>
                                       </li>
                                    </ol>
                                 <h2><b>How to use Font Awesome icons in CMS content:</b></h2>
                                     <p>Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.<br>
                                     So you may add icons in text / code blocks like this:</p>
-                                    <pre class="code">{{awesome "solid/address-book" classes="w-6 h-6 fill-current text-red-100" width=12 height=12}}</pre>
+                                    <pre class="code">{{awesome "solid/address-book" classes="w-6 h-6 text-red-100" width=12 height=12}}</pre>
+                                    <p>
+                                        <ul>
+                                            <li>"classes" parameter is used for setting any css class.</li>
+                                            <li>"width"/"height" parameters are used for setting width/height attributes for icons.</li>
+                                            <li>Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.</li>
+                                        </ul>
+                                    </p>
                             </div>
                     </div>
                     <style>

@@ -474,7 +474,7 @@ use Magento\Framework\View\DesignInterface;
 
 class AwesomeiconsBrands extends AwesomeSvgIcons
 {
-    private const AWESOME_BRANDS   = 'awesomeicons/brands';
+    private const AWESOME_BRANDS   = 'brands';
 
     public function __construct(
         Asset\Repository $assetRepository,

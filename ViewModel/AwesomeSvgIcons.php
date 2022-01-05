@@ -1,9 +1,8 @@
 <?php
 /**
- * Hyvä Themes - https://hyva.io
- * Copyright © Hyvä Themes 2020-present. All rights reserved.
- * This product is licensed per Magento install
- * See https://hyva.io/license
+ * @author    JaJuMa GmbH <info@jajuma.de>
+ * @copyright Copyright (c) 2022-present JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
  */
 
 declare(strict_types=1);
@@ -19,7 +18,7 @@ use Magento\Framework\View\Element\Block\ArgumentInterface;
  * This generic AwesomeSvgIcons view model can be used to render any icon set (i.e. subdirectory in web/svg).
  *
  * The icon set can be configured with di.xml or by extending the class. The module ships with Awesomeicons
- * and two preconfigured view models:
+ * and three preconfigured view models:
  *
  * @see AwesomeiconsSolid
  * @see AwesomeiconsBrands
@@ -27,10 +26,10 @@ use Magento\Framework\View\Element\Block\ArgumentInterface;
  */
 class AwesomeSvgIcons implements ArgumentInterface
 {
-    private const CACHE_TAG = 'HYVA_ICONS';
+    private const CACHE_TAG = 'AWESOME_HYVA_ICONS';
 
     /**
-     * @var string Path relative to asset directory Jajuma_AwesomeHyva::svg/
+     * @var string Path relative to asset directory Jajuma_AwesomeHyva::svg/awesomeicons
      */
     private $iconSet;
 
@@ -82,11 +81,23 @@ class AwesomeSvgIcons implements ArgumentInterface
         array $attributes = []
     ): string {
         $cacheKey = $this->design->getDesignTheme()->getCode() .
-            '/' . $this->iconSet .
+            '/awesomeicons' .
+            (($this->iconSet) ? '/' . $this->iconSet  : '') .
             '/' . $icon .
             '/' . $classNames .
             '#' . $width .
             '#' . $height;
+        
+        if (!empty($attributes)) {
+            foreach ($attributes as $key => $value) {
+                if (!empty($key)) {
+                    // md5() here is not for cryptographic use.
+                    // phpcs:ignore Magento2.Security.InsecureFunction
+                    $cacheKey .= '_' . md5($key . $value);
+                }
+            }
+        }
+
         if ($result = $this->cache->load($cacheKey)) {
             return $result;
         }
@@ -146,7 +157,7 @@ class AwesomeSvgIcons implements ArgumentInterface
      */
     private function getFilePath(string $icon): string
     {
-        $assetFileId = 'Jajuma_AwesomeHyva::svg/' . ($this->iconSet === '' ? '' : $this->iconSet . '/') . $icon . '.svg';
+        $assetFileId = 'Jajuma_AwesomeHyva::svg/awesomeicons/' . ($this->iconSet === '' ? '' : $this->iconSet . '/') . $icon . '.svg';
         return $this->assetRepository->createAsset($assetFileId)->getSourceFile();
     }
 }

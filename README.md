@@ -15,7 +15,7 @@ The module includes:
 * [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/font-awesome-icons-fuer-hyva-themes-extension)
 * [Demo & List of all included icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list)
 
-<img align="right" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/awesome-hyva-icon-list-demo-small.jpg">
+<img src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/awesome-hyva-icon-list-demo-small.jpg">
 
 ## Installation
 
@@ -48,16 +48,17 @@ $awesomeiconsBrands = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesome
 
 Then render the icons like this:
 ```
-<?= $awesomeiconsRegular->addressBookHtml('w-8 h-8 fill-current text-red-100', 24, 24) ?>
+<?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24) ?>
 ```
 
-The method name is the camel cased icon name, followed by Html. In an IDE you should have autocompletion for all available methods.
+* The method name is the camel cased icon name, followed by Html. 
+* In an IDE you should have autocompletion for all available methods.
+* The parameters are optional, and change the class (in single quotes) followed by 2 values for width and height attributes of the SVG element. 
+* It is recommended to set all of them, so that the images are not rendered in huge sizes if CSS fails to load.
 
-The parameters are optional, and change the class , width and height attributes of the SVG element. It is recommended to set all of them, so that the images are not rendered in huge sizes if CSS fails to load.
-
-or you may also pass additional attributes like this:
+or you may also pass additional attributes like this as an array:
 ```
-<?= $awesomeiconsRegular->addressBookHtml('w-10 h-10 fill-current', 24, 24, ['style'=>'color:#e24848']) ?>
+<?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?>
 ```
 
 ### How to use Font Awesome icons in Hyvä Themes in CMS content
@@ -65,10 +66,11 @@ or you may also pass additional attributes like this:
 Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.
 So you may add icons in text / code blocks like this:
 ```
-{{awesome "solid/address-book" classes="w-6 h-6 fill-current text-red-100" width=12 height=12}}
+{{awesome "solid/address-book" classes="text-red-100" width=12 height=12}}
 ```
-
-Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.
+* "classes" parameter is used for setting any css class.
+* "width"/"height" parameters are used for setting width/height attributes for icons.
+* Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.
 
 ## Demo
 
