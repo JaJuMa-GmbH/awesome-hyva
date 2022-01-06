@@ -91,9 +91,7 @@ class AwesomeSvgIcons implements ArgumentInterface
         if (!empty($attributes)) {
             foreach ($attributes as $key => $value) {
                 if (!empty($key)) {
-                    // md5() here is not for cryptographic use.
-                    // phpcs:ignore Magento2.Security.InsecureFunction
-                    $cacheKey .= '_' . md5($key . $value);
+                    $cacheKey .= '_' . sha256($key . $value);
                 }
             }
         }
