@@ -24,6 +24,8 @@ Install via composer as any other Magento extension from github:
 composer require jajuma/awesomehyva
 ```
 
+:warning: Version 2.0.0+ requires Hyvä Theme Version >=1.1.12 
+
 ## Using Font Awesome icons in Hyvä Themes with JaJuMa "Awesome Hyvä" module
 
 ### How to use Font Awesome icons in Hyvä Themes in view models
