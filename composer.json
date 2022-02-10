@@ -3,7 +3,7 @@
   "description": "This Magento 2 extension allows using Font Awesome 5 icons with Hyvä Themes",
   "type": "magento2-module",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "email": "info@jajuma.de",
@@ -11,7 +11,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "hyva-themes/magento2-theme-module": ">=1.1.12"
+  },
   "autoload": {
     "psr-4": {
       "Jajuma\\AwesomeHyva\\": ""
