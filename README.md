@@ -68,9 +68,16 @@ or you may also pass additional attributes like this as an array:
 
 Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.
 So you may add icons in text / code blocks like this:
+
+Release <= 1.0.1
 ```
 {{awesome "solid/address-book" classes="text-red-100" width=12 height=12}}
 ```
+Release >= 2.0.0
+```
+{{icon "awesomeicons/solid/address-book" classes="text-red-100" width=12 height=12}}
+```
+
 * "classes" parameter is used for setting any css class.
 * "width"/"height" parameters are used for setting width/height attributes for icons.
 * Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.
