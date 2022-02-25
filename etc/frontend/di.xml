@@ -29,4 +29,27 @@
             </argument>
         </arguments>
     </type>
+    
+    <type name="Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Jajuma_AwesomeHyva::svg/awesomeicons6/solid</argument>
+        </arguments>
+    </type>
+    <type name="Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Jajuma_AwesomeHyva::svg/awesomeicons6/regular</argument>
+        </arguments>
+    </type>
+    <type name="Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands">
+        <arguments>
+            <argument name="iconPathPrefix" xsi:type="string">Jajuma_AwesomeHyva::svg/awesomeicons6/brands</argument>
+        </arguments>
+    </type>
+    <type name="Hyva\Theme\ViewModel\SvgIcons">
+        <arguments>
+            <argument name="pathPrefixMapping" xsi:type="array">
+                <item name="awesomeicons6" xsi:type="string">Jajuma_AwesomeHyva::svg/awesomeicons6</item>
+            </argument>
+        </arguments>
+    </type>
 </config>
