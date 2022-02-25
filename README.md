@@ -2,7 +2,7 @@
 
 <img align="right" width="300" height="300" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/Awesome-Hyva-Module-Magento-2-small.png">
 
-Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/) allows to use [Font Awesome 5](https://fontawesome.com/v5.15/icons) icons as SVGs on Magento 2 sites using Hyvä Themes.
+Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows to use [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 sites using Hyvä Themes.
 
 The module includes:
 * Font Awesome 5
@@ -18,7 +18,8 @@ The module includes:
 
 * [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
 * [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/font-awesome-icons-fuer-hyva-themes-extension)
-* [Demo & List of all included icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list)
+* [Demo & List of all included icons v5](https://hyva.extension.jajuma.de/awesomehyva/icon/list)
+* [Demo & List of all included icons v6](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list)
 
 <img src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/awesome-hyva-icon-list-demo-small.jpg">
 
@@ -121,9 +122,9 @@ Release >= 2.0.0
 
 ## Demo
 
-### [Font Awesome 5 SVG icons for Hyvä Themes Demo](https://hyva.extension.jajuma.de/)
+### [Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo](https://hyva.extension.jajuma.de/)
 
-With [list of all included icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) and detail view for copy & paste the code to use the icons in your project.
+With [list of all included v5 icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) & [list of all included v6 icons](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list) and detail view for copy & paste the code to use the icons in your project.
 
 ## License
 
