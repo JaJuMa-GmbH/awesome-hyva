@@ -53,7 +53,7 @@
 				                target="_blank">Website</a> |
 				                <a href="https://hyva.extension.jajuma.de/"
 				                target="_blank">Demo</a>
-				                <div style="float: right;">Installed Version: <b>2.0.0</b></div>
+				                <div style="float: right;">Installed Version: <b>2.1.0</b></div>
 				             </div>
                         </div>
                             <hr>
@@ -135,7 +135,7 @@ $awesomeiconsSolid = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Aweso
 $awesomeiconsRegular = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsRegular::class);</pre>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands $awesomeiconsBrands */
 $awesomeiconsBrands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands::class);</pre>
-                                        <p>For Font Awesome 5:</p>
+                                        <p>For Font Awesome 6:</p>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid $awesomeicons6Solid */
 $awesomeicons6Solid = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid::class);</pre>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular $awesomeicons6Regular */
