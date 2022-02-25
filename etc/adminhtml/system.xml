@@ -35,7 +35,14 @@
                         </div>
                         <div style="width: 77%;float: left;padding-left: 3%;">
                             <div class="name" style="font-size: 16px;">
-                                <b>Font Awesome 5 SVG Icons for Hyvä Themes</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
+                                <b>Font Awesome 5 SVG Icons for
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 400 400" width="25" height="25"
+                                style="top: 5px;position: relative;">
+                                <rect width="400" height="400" fill="#F6F7FF"></rect>
+                                <path d="M222.131 112.458L237.41 66.8783H290.403L275.043 112.458H222.131Z" fill="#14FFAF"></path>
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M158.026 174.716C172.966 162.84 191.165 155.37 211.659 155.37C253.609 155.37 294.409 182.196 294.409 250.953V336H240.776V250.953C240.776 215.516 223.929 202.107 200.933 202.107C181.969 202.107 168.181 213.026 160.516 224.517V336H106.692V115.336H74L91.2077 64H158.026V174.716ZM272.988 109.567L286.407 69.7565H239.485L226.132 109.567H272.988ZM235.338 64H294.409L277.112 115.336H218.13L235.338 64Z" fill="#0A23B9"></path>
+                                </svg>
+                                Hyvä Themes</b> by <a href="https://www.jajuma.de/en" target="_blank"><b>JaJuMa</b></a>
 				        <div class="jajuma-minilogo"></div>
                             </div>
                             <hr>
@@ -98,7 +105,13 @@
                                        <br><br>
                                        <a href="https://hyva.extension.jajuma.de/awesomehyva/icon/list"
                                        title="Awesome Hyvä Demo &amp; Icon List" target="_blank">
-                                       Go to Awesome Hyvä Demo &amp; Icon List</a></p>
+                                       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512" class="w-10 h-10" width="15" height="15"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M448 48V384c-63 23-82 32-119 32-63 0-87-32-150-32-20 0-36 4-51 8V328c15-4 31-8 51-8 63 0 87 32 150 32 20 0 35-3 55-9V135c-20 6-35 9-55 9-63 0-87-32-150-32-51 0-75 21-115 29V448a31.6 31.6 0 0 1-32 32A31.6 31.6 0 0 1 0 448V64A31.6 31.6 0 0 1 32 32 31.6 31.6 0 0 1 64 64V77c40-8 64-29 115-29 63 0 87 32 150 32C366 80 385 71 448 48Z"></path></svg>
+                                        Go to Awesome Hyvä Demo &amp; Icon List Version 5</a>
+                                       <a href="https://hyva.extension.jajuma.de/awesomehyva/iconv6/list"
+                                       title="Awesome Hyvä Demo &amp; Icon List" target="_blank"
+                                       style="margin-top: 15px;display: block;">
+                                       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 448 512" class="w-10 h-10" width="15" height="15"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M448 48V384c-63 23-82 32-119 32-63 0-87-32-150-32-20 0-36 4-51 8V328c15-4 31-8 51-8 63 0 87 32 150 32 20 0 35-3 55-9V135c-20 6-35 9-55 9-63 0-87-32-150-32-51 0-75 21-115 29V448a31.6 31.6 0 0 1-32 32A31.6 31.6 0 0 1 0 448V64A31.6 31.6 0 0 1 32 32 31.6 31.6 0 0 1 64 64V77c40-8 64-29 115-29 63 0 87 32 150 32C366 80 385 71 448 48Z"></path></svg>
+                                        Go to Awesome Hyvä Demo &amp; Icon List Version 6</a></p>
                             </div>
                     </div>
                     ]]></comment>
@@ -115,15 +128,24 @@
                                 <h2><b>How to use Font Awesome icons in view models:</b></h2>
                                    <ol type="1" style="padding-left: 15px;">
                                       <li><p><b>Require one of the view models in your template:</b><br></p>
+                                        <p>For Font Awesome 5:</p>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid $awesomeiconsSolid */
 $awesomeiconsSolid = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid::class);</pre>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsRegular $awesomeiconsRegular */
 $awesomeiconsRegular = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsRegular::class);</pre>
                                         <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands $awesomeiconsBrands */
 $awesomeiconsBrands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands::class);</pre>
+                                        <p>For Font Awesome 5:</p>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid $awesomeicons6Solid */
+$awesomeicons6Solid = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid::class);</pre>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular $awesomeicons6Regular */
+$awesomeicons6Regular = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular::class);</pre>
+                                        <pre class="code">/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands $awesomeicons6Brands */
+$awesomeicons6Brands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands::class);</pre>
                                       </li>
                                       <li><p><b>Then render the icons like this:</b><br></p>
                                         <pre class="code">&lt;?= $awesomeiconsRegular-&gt;addressBookHtml('text-red-100', 24, 24) ?&gt;</pre>
+                                        <pre class="code">&lt;?= $awesomeicons6Regular-&gt;addressBookHtml('text-red-100', 24, 24) ?&gt;</pre>
                                         <p>
                                             <ul style="padding-left: 20px;list-style-type: disc;">
                                                 <li>The method name is the camel cased icon name, followed by Html.</li>
@@ -134,12 +156,14 @@ $awesomeiconsBrands = $viewModels-&gt;require(\Jajuma\AwesomeHyva\ViewModel\Awes
                                         </p>
                                         <p>or you may also pass additional attributes like this as an array:</p>
                                         <pre class="code">&lt;?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?&gt;</pre>
+                                        <pre class="code">&lt;?= $awesomeicons6Regular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?&gt;</pre>
                                       </li>
                                    </ol>
                                 <h2><b>How to use Font Awesome icons in CMS content:</b></h2>
                                     <p>Awesome Hyvä module adds an icon directive to render icons in filtered content like CMS blocks or pages.<br>
                                     So you may add icons in text / code blocks like this:</p>
                                     <pre class="code">{{icon "awesomeicons/solid/address-book" classes="text-red-100" width=12 height=12}}</pre>
+                                    <pre class="code">{{icon "awesomeicons6/solid/address-book" classes="text-red-100" width=12 height=12}}</pre>
                                     <p>
                                         <ul style="padding-left: 20px;list-style-type: disc;">
                                             <li>"classes" parameter is used for setting any css class.</li>

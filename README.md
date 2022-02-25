@@ -5,10 +5,15 @@
 Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/) allows to use [Font Awesome 5](https://fontawesome.com/v5.15/icons) icons as SVGs on Magento 2 sites using Hyvä Themes.
 
 The module includes:
-* Solid Style Icons
-* Regular Style Icons &
-* Brands Icons
-
+* Font Awesome 5
+  * Solid Style Icons
+  * Regular Style Icons &
+  * Brands Icons
+* Font Awesome 6
+  * Solid Style Icons
+  * Regular Style Icons &
+  * Brands Icons
+  
 ## Further Info, Demo, Extension Description & Manual
 
 * [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
@@ -30,14 +35,21 @@ composer require jajuma/awesomehyva
 
 ### How to use Font Awesome icons in Hyvä Themes in view models
 
-JaJuMa "Awesome Hyvä" module provides 3 view models:
+JaJuMa "Awesome Hyvä" module provides 6 view models:
 
-* `AwesomeiconsSolid`
-* `AwesomeiconsRegular`
-* `AwesomeiconsBrands`
+* For Font Awesome v5:
+  * `AwesomeiconsSolid`
+  * `AwesomeiconsRegular`
+  * `AwesomeiconsBrands`
+  
+* For Font Awesome v6:
+  * `Awesomeicons6Solid`
+  * `Awesomeicons6Regular`
+  * `Awesomeicons6Brands`  
 
 Require one of the view models in your template:
 
+* For Font Awesome v5:
 ```
 /** @var \Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid $awesomeiconsSolid */
 $awesomeiconsSolid = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsSolid::class);
@@ -51,9 +63,26 @@ $awesomeiconsRegular = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesom
 $awesomeiconsBrands = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\AwesomeiconsBrands::class);
 ```
 
+* For Font Awesome v6:
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid $awesomeicons6Solid */
+$awesomeicons6Solid = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Solid::class);
+```
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular $awesomeicons6Regular */
+$awesomeicons6Regular = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Regular::class);
+```
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands $awesomeicons6Brands */
+$awesomeicons6Brands = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands::class);
+```
+
 Then render the icons like this:
 ```
 <?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24) ?>
+```
+```
+<?= $awesomeicons6Regular->addressBookHtml('text-red-100', 24, 24) ?>
 ```
 
 * The method name is the camel cased icon name, followed by Html. 
@@ -64,6 +93,9 @@ Then render the icons like this:
 or you may also pass additional attributes like this as an array:
 ```
 <?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?>
+```
+```
+<?= $awesomeicons6Regular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?>
 ```
 
 ### How to use Font Awesome icons in Hyvä Themes in CMS content
@@ -78,6 +110,9 @@ Release <= 1.0.1
 Release >= 2.0.0
 ```
 {{icon "awesomeicons/solid/address-book" classes="text-red-100" width=12 height=12}}
+```
+```
+{{icon "awesomeicons6/solid/address-book" classes="text-red-100" width=12 height=12}}
 ```
 
 * "classes" parameter is used for setting any css class.
