@@ -14,7 +14,7 @@
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
                             <resource id="Jajuma_General::jajuma_extensions" title="JaJuMa Extensions">
-                                <resource id="Jajuma_AwesomeHyva::config_jajuma_awesomehyva" title="JaJuMa - Awesome Hyvä" sortOrder="60"/>
+                                <resource id="Jajuma_AwesomeHyva::config_jajuma_awesomehyva" title="JaJuMa - Awesome Hyvä" sortOrder="1200"/>
                             </resource>
                         </resource>
                     </resource>

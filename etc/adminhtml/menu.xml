@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<!--
+/**
+ * @author    JaJuMa GmbH <info@jajuma.de>
+ * @copyright Copyright (c) 2022-present JaJuMa GmbH <https://www.jajuma.de>. All rights reserved.
+ * @license   http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+	<menu>
+		<update id="Jajuma::top_level"
+             module="Jajuma_AwesomeHyva"
+             resource="Jajuma_General::jajuma_extensions"
+             sortOrder="65"
+             title="JaJuMa"/>
+
+		<add id="Jajuma_AwesomeHyva::jajuma_awesomehyva"
+			 title="Awesome Hyva"
+			 module="Jajuma_AwesomeHyva"
+			 sortOrder="1200"
+			 resource="Jajuma_AwesomeHyva::config_jajuma_awesomehyva"
+			 parent="Jajuma::top_level"/>
+		<add id="Jajuma_AwesomeHyva::jajuma_awesomehyva_info"
+			 title="Info + Manual"
+			 module="Jajuma_AwesomeHyva"
+			 sortOrder="1210"
+			 parent="Jajuma_AwesomeHyva::jajuma_awesomehyva"
+			 action="admin/system_config/edit/section/awesomehyva"
+			 resource="Jajuma_AwesomeHyva::config_jajuma_awesomehyva"/>
+		<add id="Jajuma_AwesomeHyva::jajuma_awesomehyva_demo"
+			 title="Demo + Icon List"
+			 module="Jajuma_AwesomeHyva"
+			 sortOrder="1220"
+			 parent="Jajuma_AwesomeHyva::jajuma_awesomehyva"
+			 action="admin/system_config/edit/section/tax"
+			 resource="Jajuma_AwesomeHyva::config_jajuma_awesomehyva"/>
+
+		<update id="Jajuma::extensions"
+             module="Jajuma_AwesomeHyva"
+             resource="Jajuma_General::jajuma_extensions"
+             sortOrder="10000"
+             parent="Jajuma::top_level"
+             title="JaJuMa Extensions"/>
+		<update id="Jajuma_Extensions::extensions_link"
+             title="More JaJuMa Extensions"
+			 module="Jajuma_AwesomeHyva"
+             sortOrder="10010"
+             action="awesomehyva/extensions"
+             parent="Jajuma::extensions"
+             resource="Jajuma_General::jajuma_extensions"/>
+
+	</menu>
+</config>
