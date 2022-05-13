@@ -15,7 +15,7 @@
              title="JaJuMa"/>
 
 		<add id="Jajuma_AwesomeHyva::jajuma_awesomehyva"
-			 title="Awesome Hyva"
+			 title="Awesome Hyvä"
 			 module="Jajuma_AwesomeHyva"
 			 sortOrder="1200"
 			 resource="Jajuma_AwesomeHyva::config_jajuma_awesomehyva"
@@ -32,7 +32,7 @@
 			 module="Jajuma_AwesomeHyva"
 			 sortOrder="1220"
 			 parent="Jajuma_AwesomeHyva::jajuma_awesomehyva"
-			 action="admin/system_config/edit/section/tax"
+			 action="awesomehyva/demo"
 			 resource="Jajuma_AwesomeHyva::config_jajuma_awesomehyva"/>
 
 		<update id="Jajuma::extensions"

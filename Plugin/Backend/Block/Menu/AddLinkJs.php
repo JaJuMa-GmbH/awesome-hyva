@@ -20,7 +20,7 @@ class AddLinkJs
     public function afterToHtml(Menu $subject, $html)
     {
         $js = $subject->getLayout()->createBlock(\Magento\Backend\Block\Template::class)
-            ->setTemplate('Jajuma_DynamicShippingTax::backend/menu/link_blank.phtml')
+            ->setTemplate('Jajuma_AwesomeHyva::backend/menu/link_blank.phtml')
             ->toHtml();
 
         return $html . $js;
