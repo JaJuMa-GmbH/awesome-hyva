@@ -221,6 +221,8 @@ use Hyva\Theme\ViewModel\SvgIcons;
  * @method string houzzHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string html5Html(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string hubspotHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string hyvaColoredHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string hyvaMonotoneHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idealHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string imdbHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string instagramSquareHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
