@@ -2,7 +2,7 @@
 
 <img align="right" width="300" height="300" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/Awesome-Hyva-Module-Magento-2-small.png">
 
-Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows to use [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 sites using Hyvä Themes.
+Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
 
 The module includes:
 * Font Awesome 5
@@ -13,6 +13,11 @@ The module includes:
   * Solid Style Icons
   * Regular Style Icons &
   * Brands Icons
+
+<img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png">  
+
+Compatible with  
+[Hyvä Theme](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes)
   
 ## Further Info, Demo, Extension Description & Manual
 
@@ -132,6 +137,9 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
 
 ## Other [Magento 2 Extensions](ttps://www.jajuma.de/en/jajuma-develop/magento-extensions) by [JaJuMa](https://www.jajuma.de/)
 
+  * :framed_picture: Performance & UX:<br>[Ultimate Image Optimizer for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/ultimate-image-optimizer-extension-for-magento-2)<br>
+  AVIF & WebP Images, Lazy Loading, High-Resolution / Retina images
+
   * :framed_picture: Performance & UX:<br>[WebP Optimized Images for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2#portfolio-content)<br>
   The #1 WebP Images Solution for Magento 2
    
@@ -141,14 +149,11 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
   * :cop: User Experience:<br>[Shariff Social Share for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2)<br>
   GDPR compliant and customizable Sharing Buttons
   
-  * :ok_man: User Experience:<br>[Customer Navigation Manager for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)<br>
-  Easily manage the links in your Customer Account
-  
   * :movie_camera: Content Management:<br>[Video Widget for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/video-widget-gdpr-extension-for-magento-2)<br>
   Embedding YouTube videos, GDPR compliant with auto preview image & fully responsive
   
   * :rocket: Performance & UX:<br>[Page Preload for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/page-preload-extension-for-magento-2)<br>
-  Faster faster page transitions and subsequent page-loads by preloading / prefetching
+  Faster page transitions and subsequent page-loads by preloading / prefetching
 
   * :chart_with_upwards_trend: Marketing:<br>[Matomo Analytics for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
   Web Analytics - GDPR Compliant
@@ -158,6 +163,21 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
 
   * :bell: Marketing:<br>[Customer Registration Reminder & Cleanup for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-registration-reminder-and-cleanup-extension-for-magento-2)<br>
   Increase Your Customer Engangement & Cleanup your Customer Account Data Automatically
+
+  * :mega: UX & Marketing:<br>[Category Grid Callouts for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
+  Enrich Your Category Grids With Eye-Catching Callouts
+
+  * :thought_balloon: UX & Marketing:<br>[Customer Satisfaction Feedback for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
+  Collect Valuable Feedback From Your Customers & Understand How To Satisfy Your Customers
+
+  * :ok_man: :free: User Experience:<br>[Customer Navigation Manager for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)<br>
+  Easily manage the links in your Customer Account
+
+  * :heavy_division_sign: :free: Accounting:<br>[Dynamic Shipping Tax for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/dynamic-shipping-tax-extension-for-magento-2)<br>
+  Dynamic Shipping Tax Calculation
+
+  * :question: :free: Content:<br>[Hyvä FAQ Widget for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/dynamic-shipping-tax-extension-for-magento-2)<br>
+  FAQ Widget for your for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
 
 ## Other [Services](https://www.jajuma.de/en/jajuma/company-magento-ecommerce-agency-stuttgart) by [JaJuMa](https://www.jajuma.de/)
 
