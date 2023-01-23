@@ -167,6 +167,9 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
   * :mega: UX & Marketing:<br>[Category Grid Callouts for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
   Enrich Your Category Grids With Eye-Catching Callouts
 
+  * :sparkler: UX:<br>[Auto Select Options for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/auto-select-options-extension-for-magento-2)<br>
+  Automatically Select Configurable & Custom Options Based On Your Customer's Preferences
+
   * :thought_balloon: UX & Marketing:<br>[Customer Satisfaction Feedback for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
   Collect Valuable Feedback From Your Customers & Understand How To Satisfy Your Customers
 
