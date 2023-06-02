@@ -13,7 +13,7 @@ use Hyva\Theme\ViewModel\SvgIcons;
 
 /**
  * This class exists to offer autocompletion, it could have been a virtual type otherwise
- * 
+ *
  * @method string addressBookHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string addressCardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string bellSlashHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
@@ -131,6 +131,7 @@ use Hyva\Theme\ViewModel\SvgIcons;
  * @method string hardDriveHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string heartHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string hospitalHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
+ * @method string hourglassHalfHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string hourglassHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idBadgeHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
  * @method string idCardHtml(string $classnames = '', ?int $width = 24, ?int $height = 24, array $attributes = [])
