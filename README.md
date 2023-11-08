@@ -2,7 +2,7 @@
 
 <img align="right" width="300" height="300" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/Awesome-Hyva-Module-Magento-2-small.png">
 
-Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
+Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 & Mage-OS sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
 
 The module includes:
 * Font Awesome 5
@@ -14,11 +14,22 @@ The module includes:
   * Regular Style Icons &
   * Brands Icons
 
-<img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png">  
+<td>
+    <table>
+     <tr>
+        <td><b>Hyvä Themes</b></td>
+        <td><b>Mage-OS</b></td>
+        <td><b>Magento</b></td>
+     </tr>
+     <tr>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png"></img></a></td>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop/demo-shop-with-mage-os-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/Mage-OS-Compatible.svg"></a></td>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop"><img align="left" height="60" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/magento-icon.svg"></a></td>
+    </tr>
+    </table>
+</td>
 
-Compatible with  
-[Hyvä Theme](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes)
-  
+
 ## Further Info, Demo, Extension Description & Manual
 
 * [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
@@ -127,9 +138,19 @@ Release >= 2.0.0
 
 ## Demo
 
-### [Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo](https://hyva.extension.jajuma.de/)
+Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo.  
+With list view and detail view for copy & paste the code to use the icons in your project.
 
-With [list of all included v5 icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) & [list of all included v6 icons](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list) and detail view for copy & paste the code to use the icons in your project.
+### [On Hyvä Theme with Magento](https://hyva.extension.jajuma.de/)
+
+* [list of all included v5 icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) & 
+* [list of all included v6 icons](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list)   
+
+### [On Hyvä Theme with Mage-OS](https://mage-os.extension.jajuma.de/) 
+
+* [list of all included v5 icons](https://mage-os.extension.jajuma.de/awesomehyva/icon/list) &
+* [list of all included v6 icons](https://mage-os.extension.jajuma.de/awesomehyva/iconv6/list) 
+
 
 ## License
 
@@ -153,7 +174,7 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
   Embedding YouTube videos, GDPR compliant with auto preview image & fully responsive
 
 * :rocket: Performance & UX:<br>[Page Preload for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/page-preload-extension-for-magento-2)<br>
-  Faster page transitions and subsequent page-loads by preloading / prefetching
+  Faster faster page transitions and subsequent page-loads by preloading / prefetching
 
 * :chart_with_upwards_trend: Marketing:<br>[Matomo Analytics for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
   Web Analytics - GDPR Compliant
@@ -188,11 +209,17 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
 * :octocat: Content Management:<br>[git 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/extensions/git-4-page-builder-extension-for-magento-2)<br>
   Manage & deploy Magento 2 Page Builder content via git
 
+* :rocket: Performance:<br>[Hyvä Inline CSS](https://www.jajuma.de/en/jajuma-develop/extensions/hyva-inline-css-extension-for-magento-with-hyva-themes)<br>
+  Run Magento 2 without CSS file by inline all CSS
+
 * :man_technologist: :free: Content Management:<br>[Syntax Highlighter 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/extensions/syntax-highlighter-4-page-builder-extension-for-magento-2)<br>
   Syntax Highlighting and more for Magento 2 Page Builder
 
 * :triangular_flag_on_post: :free: UI & UX:<br>[Awesome Hyvä for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)<br>
   Font Awesome 5 & 6 Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
+
+* :triangular_flag_on_post: :free: UI & UX:<br>[Hyvä Flags for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/country-language-flag-icons-for-hyva-themes-extension)<br>
+  Country & Language Flag Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
 
 * :ok_man: :free: User Experience:<br>[Customer Navigation Manager for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)<br>
   Easily manage the links in your Customer Account
