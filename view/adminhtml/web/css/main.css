@@ -65,9 +65,6 @@ li.item-jajuma-awesomehyva.parent.level-1 {
 }
 #awesomehyva_extension_info .jajuma-extlogo {
     background-image: url(../images/module-image.png);
-    width: 185px;
-    height: 185px;
-    background-size: cover;
 }
 .jajuma-minilogo {
     background-image: url('data:image/png;base64,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');
@@ -77,10 +74,238 @@ li.item-jajuma-awesomehyva.parent.level-1 {
     margin-left: 10px;
     float: right;
 }
-.more-ideas-list {
+/***** Board in Configuration *****/
+
+.jajuma-extension-info-board {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(90deg, #ffe9a3 0%, #fff5d5 100%);
+    padding: 20px;
+    border-radius: 8px;
+    gap: 20px;
+}
+
+.jajuma-extension-info-board a {
+    color: #1b478a;
+    transition: .3s ease color;
+}
+
+.jajuma-extension-info-board a:hover {
+    color: #179dd8;
+}
+
+/* Current Extension */
+
+.jjme-current-extension {
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
+    backdrop-filter: blur(2px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background-color: rgb(255 255 255 / 0.2);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.jjme-logo-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.jjme-logo-box .jajuma-extlogo {
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgb(0 0 0 / 12%);
+    border-radius: 8px;
+    width: 85px;
+    height: 85px;
+    background-size: contain;
+}
+
+.jjme-extension-info {
+    flex: 1;
+}
+
+/* Current Extension - Name & Version */
+
+.jjme-extension-info-box {
+    display: flex;
+}
+
+.jjme-extension-name {
+    flex: 1;
+    font-size: 26px;
+    margin-bottom: 16px;
+    margin-top: -5px;
+}
+
+.jjme-version {
+    text-align: right;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding: 2px 8px;
+    background: #3c3c3c;
+    color: #fff;
+    border-radius: 16px;
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 4px;
+}
+
+/* Current Extension - Intro & Demo & Compat */
+
+.jjme-more-about-extension {
+    display: flex;
+    gap: 16px;
+}
+
+.jjme-more-about-extension svg {
+    width: 22px;
+}
+
+.jjme-more-about-extension a {
+    position: relative;
+}
+
+.jjme-more-about-extension a:hover .jjme-tooltip {
+    visibility: visible;
+}
+
+.jjme-extension-info .jjme-more-about-extension a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.jjme-extension-info .jjme-demos a {
+    gap: 24px;
+    height: 24px;
+    transition: all ease .3s;
+}
+
+.jjme-extension-info .jjme-demos a:hover {
+    transform: scale(1.1);
+    color: #1b478a;
+}
+
+.jjme-more-info,
+.jjme-demos {
+    display: inline-flex;
+    align-items: center;
+    font-size: 13px;
+    border-radius: 24px;
+    color: #3C3C3C;
+    transition: .2s all ease;
+    font-weight: 400;
+    padding: 2px 16px 3px 2.4px;
+    gap: 16px;
+    border: 1px solid;
+}
+
+.jjme-info-title {
+    padding: 6px 12px;
+    background: #3d3d3d;
+    border-radius: 16px;
+    color: #fff;
+}
+
+.jjme-compats {
+    display: flex;
+    gap: 6px;
+    position: absolute;
+    right: 20px;
+    top: 56px;
+    flex-direction: column
+}
+
+.jjme-compat {
+    font-size: 13px;
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+/* Other Extensions */
+
+.jjme-other-extensions {
+    backdrop-filter: blur(4px);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    background-color: rgb(255 255 255 / 0.6);
+    border-radius: 1.5rem;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.jjme-idea-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 3px;
+    grid-template-columns: repeat(3,minmax(0,3fr));
+    grid-gap: 4px;
+    margin-top: 15px;
+}
+
+/* Copyright Section */
+
+.jjme-jajuma-copyright {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    margin: -10px 2px;
+}
+
+.jjme-copyright {
+    font-size: 12px;
+}
+
+/* Tooltips */
+
+.jjme-tooltip {
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    width: max-content;
+    max-width: 500px;
+    background-color: #efb600;
+    color: #3C3C3C;
+    text-align: left;
+    padding: 5px 10px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    box-shadow: 0px 1px 7px 0px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.jjme-tooltip::after {
+    content: " ";
+    position: absolute;
+    bottom: -12px;
+    margin-top: 0;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #efb600 transparent transparent transparent;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.jjme-compat .jjme-tooltip {
+    top: -30px;
+    left: 20px;
+    transform: translateX(-80%);
+}
+
+.jjme-compat .jjme-tooltip::after {
+    left: 80%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 1440px) {
+    .jjme-idea-list {
+        grid-template-columns: repeat(2,minmax(0,2fr));
+    }
 }
