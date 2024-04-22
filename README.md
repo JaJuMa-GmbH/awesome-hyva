@@ -1,18 +1,12 @@
-# Awesome Hyvä by [JaJuMa](https://www.jajuma.de/)
+# Awesome Hyvä for Magento 2 & Mage-OS with Hyvä Themes by [JaJuMa](https://www.jajuma.de/)
 
-<img align="right" width="300" height="300" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/Awesome-Hyva-Module-Magento-2-small.png">
+<img align="right" width="300" height="auto" src="https://www.jajuma.de/media/wysiwyg/jajuma-develop/font-awesome-icons-for-hyva-themes-extension-for-magento-2/Awesome-Hyva-Module-Magento-2-small.png">
 
 Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 & Mage-OS sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
 
-The module includes:
-* Font Awesome 5
-  * Solid Style Icons
-  * Regular Style Icons &
-  * Brands Icons
-* Font Awesome 6
-  * Solid Style Icons
-  * Regular Style Icons &
-  * Brands Icons
+<br><br>
+
+### Compatible with
 
 <td>
     <table>
@@ -22,22 +16,45 @@ The module includes:
         <td><b>Magento</b></td>
      </tr>
      <tr>
-       <td><a href="https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png"></img></a></td>
-       <td><a href="https://www.jajuma.de/en/jajuma-shop/demo-shop-with-mage-os-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/Mage-OS-Compatible.svg"></a></td>
-       <td><a href="https://www.jajuma.de/en/jajuma-shop"><img align="left" height="60" src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/magento-icon.svg"></a></td>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/media/wysiwyg/jajuma-shop/magento-with-hyva/JaJuMa-Hyvanaut-small.png"></a></td>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop/demo-shop-with-mage-os-and-hyva-themes"><img align="left" width="80" src="https://www.jajuma.de/media/wysiwyg/jajuma-develop/Mage-OS-Compatible.svg"></a></td>
+       <td><a href="https://www.jajuma.de/en/jajuma-shop"><img align="left" height="60" src="https://www.jajuma.de/media/wysiwyg/jajuma-develop/magento-icon.svg"></a></td>
     </tr>
     </table>
 </td>
 
+## Features
+Awesome Hyvä for Magento & Mage-OS with Hyvä Themes
+* includes 3500+ icons:
+  * Font Awesome 5
+    * Solid Style Icons
+    * Regular Style Icons &
+    * Brands Icons
+  * Font Awesome 6
+    * Solid Style Icons
+    * Regular Style Icons &
+    * Brands Icons
+* provides 6 ViewModels for adding icons in code
+* allows adding Font Awesome Icons in CMS content from Backend.
 
-## Further Info, Demo, Extension Description & Manual
+## Further Info, Extension Description & Manual
 
-* [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)
-* [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/extensions/font-awesome-icons-fuer-hyva-themes-extension)
-* [Demo & List of all included icons v5](https://hyva.extension.jajuma.de/awesomehyva/icon/list)
-* [Demo & List of all included icons v6](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list)
+* [Extension Website EN](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/font-awesome-icons-for-hyva-themes-extension)
+* [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/hyva-extensions/font-awesome-icons-fuer-hyva-themes-extension)
 
-<img src="https://www.jajuma.de/sites/default/files/ckfinder/userfiles/images/jajuma-develop/font-awesome-svg-icons-for-hyva-themes/awesome-hyva-icon-list-demo-small.jpg">
+## Demo
+Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo:
+
+* [On Hyvä Theme with Magento](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-magento-2-and-hyva-themes)
+* [On Hyvä Theme with Mage-OS](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-mage-os-and-hyva-themes)
+
+## Icon List
+List view and detail view with all included icons for copy & paste the code to use the icons in your project:
+
+* [Demo & List of all included icons Font Awesome v5](https://www.jajuma.de/en/font-awesome-icons-for-hyva-themes-extension/demo-icon-list-font-awesome-5)
+* [Demo & List of all included icons Font Awesome v6](https://www.jajuma.de/en/font-awesome-icons-for-hyva-themes-extension/demo-icon-list-font-awesome-6)
+
+<img src="https://www.jajuma.de/media/wysiwyg/jajuma-develop/font-awesome-icons-for-hyva-themes-extension-for-magento-2/awesome-hyva-icon-list-demo-large.jpg">
 
 ## Installation
 
@@ -45,6 +62,9 @@ Install via composer as any other Magento extension from github:
 ```
 composer require jajuma/awesomehyva
 ```
+
+or get it from [Extension Website](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/font-awesome-icons-for-hyva-themes-extension)
+for manual installation in `app/code/` as any other Magento extension.  
 
 :warning: Version 2.0.0+ requires Hyvä Theme Version >=1.1.12 
 
@@ -136,21 +156,6 @@ Release >= 2.0.0
 * "width"/"height" parameters are used for setting width/height attributes for icons.
 * Hint: You may get the code snippets for copy & paste for each icon on the demo - see link below.
 
-## Demo
-
-Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo.  
-With list view and detail view for copy & paste the code to use the icons in your project.
-
-### [On Hyvä Theme with Magento](https://hyva.extension.jajuma.de/)
-
-* [list of all included v5 icons](https://hyva.extension.jajuma.de/awesomehyva/icon/list) & 
-* [list of all included v6 icons](https://hyva.extension.jajuma.de/awesomehyva/iconv6/list)   
-
-### [On Hyvä Theme with Mage-OS](https://mage-os.extension.jajuma.de/) 
-
-* [list of all included v5 icons](https://mage-os.extension.jajuma.de/awesomehyva/icon/list) &
-* [list of all included v6 icons](https://mage-os.extension.jajuma.de/awesomehyva/iconv6/list) 
-
 
 ## License
 
@@ -158,77 +163,80 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
 
 ## Other [Magento 2 Extensions](ttps://www.jajuma.de/en/jajuma-develop/magento-extensions) by [JaJuMa](https://www.jajuma.de/)
 
-* :framed_picture: Performance & UX:<br>[Ultimate Image Optimizer for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/ultimate-image-optimizer-extension-for-magento-2)<br>
+* :framed_picture: Performance & UX:<br>[Ultimate Image Optimizer for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/ultimate-image-optimizer-extension-for-magento-2)<br>
   AVIF & WebP Images, Lazy Loading, High-Resolution / Retina images
 
-* :framed_picture: Performance & UX:<br>[WebP Optimized Images for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/webp-optimized-images-extension-for-magento-2#portfolio-content)<br>
+* :framed_picture: Performance & UX:<br>[WebP Optimized Images for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/webp-optimized-images-extension-for-magento-2#portfolio-content)<br>
   The #1 WebP Images Solution for Magento 2
 
-* :see_no_evil: SEO:<br>[PRG Pattern Link Masking for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/prg-pattern-link-masking-for-magento-2)<br>
+* :see_no_evil: SEO:<br>[PRG Pattern Link Masking for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/prg-pattern-link-masking-for-magento-2)<br>
   Link Masking for Layered Navigation
 
-* :cop: User Experience:<br>[Shariff Social Share for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/shariff-social-share-buttons-extension-for-magento-2)<br>
+* :cop: User Experience:<br>[Shariff Social Share for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/shariff-social-share-buttons-extension-for-magento-2)<br>
   GDPR compliant and customizable Sharing Buttons
 
-* :movie_camera: Content Management:<br>[Video Widget for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/video-widget-gdpr-extension-for-magento-2)<br>
+* :movie_camera: Content Management:<br>[Video Widget for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/video-widget-gdpr-extension-for-magento-2)<br>
   Embedding YouTube videos, GDPR compliant with auto preview image & fully responsive
 
-* :rocket: Performance & UX:<br>[Page Preload for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/page-preload-extension-for-magento-2)<br>
+* :rocket: Performance & UX:<br>[Page Preload for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/page-preload-extension-for-magento-2)<br>
   Faster faster page transitions and subsequent page-loads by preloading / prefetching
 
-* :chart_with_upwards_trend: Marketing:<br>[Matomo Analytics for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
+* :chart_with_upwards_trend: Marketing:<br>[Matomo Analytics for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
   Web Analytics - GDPR Compliant
 
-* :honey_pot: Site Optimization:<br>[Honey Spam Anti-Spam for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
+* :honey_pot: Site Optimization:<br>[Honey Spam Anti-Spam for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/honey-spam-anti-spam-extension-for-magento-2)<br>
   Spam Protection - Reliable & GDPR Compliant
 
-* :bell: Marketing:<br>[Customer Registration Reminder & Cleanup for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-registration-reminder-and-cleanup-extension-for-magento-2)<br>
+* :bell: Marketing:<br>[Customer Registration Reminder & Cleanup for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/customer-registration-reminder-and-cleanup-extension-for-magento-2)<br>
   Increase Your Customer Engangement & Cleanup your Customer Account Data Automatically
 
-* :mega: UX & Marketing:<br>[Category Grid Callouts for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
+* :mega: UX & Marketing:<br>[Category Grid Callouts for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/category-grid-callouts-extension-for-magento-2)<br>
   Enrich Your Category Grids With Eye-Catching Callouts
 
-* :thought_balloon: UX & Marketing:<br>[Customer Satisfaction Feedback for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/category-grid-callouts-extension-for-magento-2)<br>
+* :thought_balloon: UX & Marketing:<br>[Customer Satisfaction Feedback for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/category-grid-callouts-extension-for-magento-2)<br>
   Collect Valuable Feedback From Your Customers & Understand How To Satisfy Your Customers
 
-* :sparkler: UX:<br>[Auto Select Options for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/auto-select-options-extension-for-magento-2)<br>
+* :sparkler: UX:<br>[Auto Select Options for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/auto-select-options-extension-for-magento-2)<br>
   Automatically Select Configurable & Custom Options Based On Your Customer's Preferences
 
-* :left_right_arrow: UX & Performance:<br>[Back Forward Cache - bfcache for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/back-forward-cache-extension-for-magento-2)<br>
+* :left_right_arrow: UX & Performance:<br>[Back Forward Cache - bfcache for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/back-forward-cache-extension-for-magento-2)<br>
   Enable bfcache for Magento 2 for improved UX & Core Web Vitals
 
-* :heavy_division_sign: Accounting:<br>[Dynamic Shipping Tax Plus for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/proportional-pro-rata-dynamic-shipping-tax-plus-extension-for-magento-2)<br>
+* :heavy_division_sign: Accounting:<br>[Dynamic Shipping Tax Plus for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/proportional-pro-rata-dynamic-shipping-tax-plus-extension-for-magento-2)<br>
   Dynamic Shipping Tax Calculation incl. pro-rata/proportional tax rates
 
-* :mag: Search:<br>[MySQL Search for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/magento-without-elasticsearch-mysql-search-extension-for-magento-2)<br>
+* :mag: Search:<br>[MySQL Search for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/magento-without-elasticsearch-mysql-search-extension-for-magento-2)<br>
   MySQL Search for Magento 2 without Elasticsearch
 
-* :bangbang: Performance:<br>[Preload Critical Resources & Assets](https://www.jajuma.de/en/jajuma-develop/extensions/resource-hints-preload-critical-resources-assets-extension-for-magento-2)<br>
+* :bangbang: Performance:<br>[Preload Critical Resources & Assets](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/resource-hints-preload-critical-resources-assets-extension-for-magento-2)<br>
   Resource Hints for preloading important and critical resources
 
-* :octocat: Content Management:<br>[git 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/extensions/git-4-page-builder-extension-for-magento-2)<br>
+* :octocat: Content Management:<br>[git 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/git-4-page-builder-extension-for-magento-2)<br>
   Manage & deploy Magento 2 Page Builder content via git
 
-* :rocket: Performance:<br>[Hyvä Inline CSS](https://www.jajuma.de/en/jajuma-develop/extensions/hyva-inline-css-extension-for-magento-with-hyva-themes)<br>
+* :rocket: Performance:<br>[Hyvä Inline CSS](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/hyva-inline-css-extension-for-magento-with-hyva-themes)<br>
   Run Magento 2 without CSS file by inline all CSS
 
-* :man_technologist: :free: Content Management:<br>[Syntax Highlighter 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/extensions/syntax-highlighter-4-page-builder-extension-for-magento-2)<br>
+* :man_technologist: :free: Content Management:<br>[Syntax Highlighter 4 Page Builder](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/syntax-highlighter-4-page-builder-extension-for-magento-2)<br>
   Syntax Highlighting and more for Magento 2 Page Builder
 
-* :triangular_flag_on_post: :free: UI & UX:<br>[Awesome Hyvä for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/font-awesome-icons-for-hyva-themes-extension)<br>
+* :triangular_flag_on_post: :free: UI & UX:<br>[Awesome Hyvä for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/font-awesome-icons-for-hyva-themes-extension)<br>
   Font Awesome 5 & 6 Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
 
-* :triangular_flag_on_post: :free: UI & UX:<br>[Hyvä Flags for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/country-language-flag-icons-for-hyva-themes-extension)<br>
+* :triangular_flag_on_post: :free: UI & UX:<br>[Hyvä Flags for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/country-language-flag-icons-for-hyva-themes-extension)<br>
   Country & Language Flag Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
 
-* :ok_man: :free: User Experience:<br>[Customer Navigation Manager for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/customer-navigation-manager-extension-for-magento-2)<br>
+* :ok_man: :free: User Experience:<br>[Customer Navigation Manager for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/customer-navigation-manager-extension-for-magento-2)<br>
   Easily manage the links in your Customer Account
 
-* :heavy_division_sign: :free: Accounting:<br>[Dynamic Shipping Tax for Magento 2](https://www.jajuma.de/en/jajuma-develop/extensions/dynamic-shipping-tax-extension-for-magento-2)<br>
+* :heavy_division_sign: :free: Accounting:<br>[Dynamic Shipping Tax for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/dynamic-shipping-tax-extension-for-magento-2)<br>
   Dynamic Shipping Tax Calculation
 
-* :question: :free: Content:<br>[Hyvä FAQ Widget for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/extensions/dynamic-shipping-tax-extension-for-magento-2)<br>
+* :question: :free: Content:<br>[Hyvä FAQ Widget for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/hyva-faq-widget-extension-for-hyva-themes)<br>
   FAQ Widget for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
+
+* :jigsaw: :free: Admin Tools:<br>[Magento Power Toys](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/power-toys-for-magento-2)<br>
+  Tools and helpers, a.k.a "Toys", for Magento Admins
 
 ## Other [Services](https://www.jajuma.de/en/jajuma/company-magento-ecommerce-agency-stuttgart) by [JaJuMa](https://www.jajuma.de/)
 
