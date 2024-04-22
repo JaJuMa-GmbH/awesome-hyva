@@ -20,11 +20,11 @@ class ExtensionsLinkPlugin
     public function afterGetUrl(Item $subject, $url)
     {
         if ($subject->getId() === 'Jajuma_Extensions::extensions_link') {
-            return 'https://www.jajuma.de/en/jajuma-develop/magento-extensions?mtm_campaign=Extensions-Menu';
+            return 'https://www.jajuma.de/en/jajuma-develop/hyva-extensions?mtm_campaign=Extensions-Menu';
         }
 
         if ($subject->getId() === 'Jajuma_AwesomeHyva::jajuma_awesomehyva_demo') {
-            return 'https://hyva.extension.jajuma.de/awesomehyva/iconv6/list?mtm_campaign=Extensions-Menu';
+            return 'https://www.jajuma.de/en/font-awesome-icons-for-hyva-themes-extension/demo-icon-list-font-awesome-6?mtm_campaign=Extensions-Menu';
         }
 
         return $url;

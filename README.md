@@ -161,7 +161,7 @@ Release >= 2.0.0
 
 The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/AwesomeHyva/blob/master/LICENSE)
 
-## Other [Magento 2 Extensions](ttps://www.jajuma.de/en/jajuma-develop/magento-extensions) by [JaJuMa](https://www.jajuma.de/)
+## Other [Magento 2](https://www.jajuma.de/en/jajuma-develop/magento-extensions) & [Hyvä Themes Extensions](https://www.jajuma.de/en/jajuma-develop/hyva-extensions) by [JaJuMa](https://www.jajuma.de/)
 
 * :framed_picture: Performance & UX:<br>[Ultimate Image Optimizer for Magento 2](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/ultimate-image-optimizer-extension-for-magento-2)<br>
   AVIF & WebP Images, Lazy Loading, High-Resolution / Retina images
