@@ -1,10 +1,23 @@
-<script>
-    require([
-        'jquery'
-    ], function ($) {
-        $(document).ready(function () {
-            $('a[href*="https://www.jajuma.de"]').attr('target', '_blank');
-            $('a[href*="https://www.jajuma.de/en/font-awesome-icons-for-hyva-themes-extension/demo-icon-list-font-awesome-6"]').attr('target', '_blank');
-        });
+?php
+/** @var \Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer */
+$secureRenderer = method_exists($block, 'getSecureHtmlRenderer')
+    ? $block->getSecureHtmlRenderer()
+    : (method_exists($block, 'getSecureRenderer') ? $block->getSecureRenderer() : null);
+
+$script = <<<'JS'
+require([
+    'jquery'
+], function ($) {
+    $(document).ready(function () {
+        $('a[href*="https://www.jajuma.de"]').attr('target', '_blank');
+        $('a[href*="https://www.jajuma.de/en/font-awesome-icons-for-hyva-themes-extension/demo-icon-list-font-awesome-6"]').attr('target', '_blank');
     });
-</script>
+});
+JS;
+
+if ($secureRenderer) {
+    echo $secureRenderer->renderTag('script', [], $script, false);
+} else {
+    // Fallback if SecureHtmlRenderer isn't available on this block (wire it in as shown below).
+    echo '<script>' . $block->escapeHtml($script) . '</script>';
+}
