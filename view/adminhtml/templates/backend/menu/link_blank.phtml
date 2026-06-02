@@ -1,4 +1,4 @@
-?php
+<?php
 /** @var \Magento\Framework\View\Helper\SecureHtmlRenderer $secureRenderer */
 $secureRenderer = method_exists($block, 'getSecureHtmlRenderer')
     ? $block->getSecureHtmlRenderer()
@@ -19,5 +19,6 @@ if ($secureRenderer) {
     echo $secureRenderer->renderTag('script', [], $script, false);
 } else {
     // Fallback if SecureHtmlRenderer isn't available on this block (wire it in as shown below).
-    echo '<script>' . $block->escapeHtml($script) . '</script>';
+    echo '<script>' . $script . '</script>';
 }
+?>
