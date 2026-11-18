@@ -1,6 +1,6 @@
 {
   "name": "jajuma/awesomehyva",
-  "description": "This Magento 2 extension allows using Font Awesome 5 icons with Hyvä Themes",
+  "description": "This Magento 2 extension allows using Font Awesome 5, 6 & 7 icons with Hyvä Themes",
   "type": "magento2-module",
   "license": "MIT",
   "version": "2.1.8",

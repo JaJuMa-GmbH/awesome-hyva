@@ -2,7 +2,7 @@
 
 <img align="right" width="300" height="auto" src="https://www.jajuma.de/media/wysiwyg/jajuma-develop/font-awesome-icons-for-hyva-themes-extension-for-magento-2/Awesome-Hyva-Module-Magento-2-small.png">
 
-Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free) & [Font Awesome 6](https://fontawesome.com/search?m=free) icons as SVGs on Magento 2 & Mage-OS sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
+Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) allows using [Font Awesome 5](https://fontawesome.com/v5/search?m=free), [Font Awesome 6](https://fontawesome.com/v6/search?ic=free) & [Font Awesome 7](https://fontawesome.com/search?ic=free) icons as SVGs on Magento 2 & Mage-OS sites using [Hyvä Themes](https://www.jajuma.de/en/jajuma-shop/online-shop-with-magento-2-and-hyva-themes).
 
 <br><br>
 
@@ -25,7 +25,7 @@ Awesome Hyvä extension by [JaJuMa](https://www.jajuma.de/de/jajuma-shop/online-
 
 ## Features
 Awesome Hyvä for Magento & Mage-OS with Hyvä Themes
-* includes 3500+ icons:
+* includes 6500+ icons:
   * Font Awesome 5
     * Solid Style Icons
     * Regular Style Icons &
@@ -34,7 +34,11 @@ Awesome Hyvä for Magento & Mage-OS with Hyvä Themes
     * Solid Style Icons
     * Regular Style Icons &
     * Brands Icons
-* provides 6 ViewModels for adding icons in code
+  * Font Awesome 7
+    * Solid Style Icons
+    * Regular Style Icons &
+    * Brands Icons
+* provides 9 ViewModels for adding icons in code
 * allows adding Font Awesome Icons in CMS content from Backend.
 
 ## Further Info, Extension Description & Manual
@@ -43,7 +47,7 @@ Awesome Hyvä for Magento & Mage-OS with Hyvä Themes
 * [Extension Website DE](https://www.jajuma.de/de/jajuma-develop/hyva-extensions/font-awesome-icons-fuer-hyva-themes-extension)
 
 ## Demo
-Font Awesome 5 & 6 SVG icons for Hyvä Themes Demo:
+Font Awesome 5, 6 & 7 SVG icons for Hyvä Themes Demo:
 
 * [On Hyvä Theme with Magento](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-magento-2-and-hyva-themes)
 * [On Hyvä Theme with Mage-OS](https://www.jajuma.de/en/jajuma-shop/demo-shop-with-mage-os-and-hyva-themes)
@@ -72,7 +76,7 @@ for manual installation in `app/code/` as any other Magento extension.
 
 ### How to use Font Awesome icons in Hyvä Themes in view models
 
-JaJuMa "Awesome Hyvä" module provides 6 view models:
+JaJuMa "Awesome Hyvä" module provides 9 view models:
 
 * For Font Awesome v5:
   * `AwesomeiconsSolid`
@@ -82,7 +86,12 @@ JaJuMa "Awesome Hyvä" module provides 6 view models:
 * For Font Awesome v6:
   * `Awesomeicons6Solid`
   * `Awesomeicons6Regular`
-  * `Awesomeicons6Brands`  
+  * `Awesomeicons6Brands`
+
+* For Font Awesome v7:
+  * `Awesomeicons7Solid`
+  * `Awesomeicons7Regular`
+  * `Awesomeicons7Brands`
 
 Require one of the view models in your template:
 
@@ -114,12 +123,29 @@ $awesomeicons6Regular = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Aweso
 $awesomeicons6Brands = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons6Brands::class);
 ```
 
+* For Font Awesome v7:
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Solid $awesomeicons7Solid */
+$awesomeicons7Solid = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Solid::class);
+```
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Regular $awesomeicons7Regular */
+$awesomeicons7Regular = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Regular::class);
+```
+```
+/** @var \Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Brands $awesomeicons7Brands */
+$awesomeicons7Brands = $viewModels->require(\Jajuma\AwesomeHyva\ViewModel\Awesomeicons7Brands::class);
+```
+
 Then render the icons like this:
 ```
 <?= $awesomeiconsRegular->addressBookHtml('text-red-100', 24, 24) ?>
 ```
 ```
 <?= $awesomeicons6Regular->addressBookHtml('text-red-100', 24, 24) ?>
+```
+```
+<?= $awesomeicons7Regular->addressBookHtml('text-red-100', 24, 24) ?>
 ```
 
 * The method name is the camel cased icon name, followed by Html. 
@@ -133,6 +159,9 @@ or you may also pass additional attributes like this as an array:
 ```
 ```
 <?= $awesomeicons6Regular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?>
+```
+```
+<?= $awesomeicons7Regular->addressBookHtml('text-red-100', 24, 24, ['style'=>'position:relative']) ?>
 ```
 
 ### How to use Font Awesome icons in Hyvä Themes in CMS content
@@ -150,6 +179,9 @@ Release >= 2.0.0
 ```
 ```
 {{icon "awesomeicons6/solid/address-book" classes="text-red-100" width=12 height=12}}
+```
+```
+{{icon "awesomeicons7/solid/address-book" classes="text-red-100" width=12 height=12}}
 ```
 
 * "classes" parameter is used for setting any css class.
@@ -224,7 +256,7 @@ The code is licensed under the [MIT License (MIT)](https://github.com/JaJuMa/Awe
   Syntax Highlighting and more for Magento 2 Page Builder
 
 * :triangular_flag_on_post: :free: UI & UX:<br>[Awesome Hyvä for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/font-awesome-icons-for-hyva-themes-extension)<br>
-  Font Awesome 5 & 6 Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
+  Font Awesome 5, 6 & 7 Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
 
 * :triangular_flag_on_post: :free: UI & UX:<br>[Hyvä Flags for Hyvä Themes](https://www.jajuma.de/en/jajuma-develop/hyva-extensions/country-language-flag-icons-for-hyva-themes-extension)<br>
   Country & Language Flag Icons for your [Hyvä Themes](https://www.jajuma.de/de/jajuma-shop/online-shop-mit-magento-2-und-hyva-themes) Store
